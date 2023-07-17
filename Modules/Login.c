@@ -1,14 +1,16 @@
 #include "Login.h"
+#include "Employee.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 
 int InputStream() //this function takes and verifys input
 {
 	LOGIN login;
 	 login.option = 0; //initializes variable
-	unsigned char Option[10] = { 0 }; //creates a string for input
-	while (fgets(Option, 10, stdin)) 
+	unsigned char Option[NUM_SIZE] = { 0 }; //creates a string for input
+	while (fgets(Option, NUM_SIZE, stdin)) 
 	{
 		 login.option = atoi(Option); //converts the input string to int
 		 if (login.option > 3 || login.option < 1) //checks if input, as an integer, is wrong 
@@ -79,8 +81,8 @@ void LoginCredentials()
 	case 1:
 		printf("\nWhich one are you?\nEnter a number to continue: ");
 		unsigned int choice = 0;
-		unsigned char Choice[10] = { 0 };
-		while (fgets(Choice, 10, stdin))
+		unsigned char Choice[NUM_SIZE] = { 0 };
+		while (fgets(Choice, NUM_SIZE, stdin))
 		{
 			unsigned int choice = atoi(Choice);
 			if (choice > 2 || choice < 1)
@@ -102,15 +104,7 @@ void LoginCredentials()
 				{
 				case 1:
 					//WriteToNewUserFile(); - turn the entire code below to this function in employee.h
-					printf("\nEnter your Username: ");
-					unsigned char Name[50] = { 0 };
-					fgets(Name, 50, stdin);
-					printf("\nEnter your Password: ");
-					int password[10] = { 0 };
-					for (int i = 0; i < 10; i++)
-					{
-						scanf_s("%d", &password[i]);
-					}
+					WriteToUsersCredentialsFile();
 					break;
 
 				case 2:
@@ -121,11 +115,11 @@ void LoginCredentials()
 					//		VerifyExistingUser(); - verifys what was entered from above
 					// }
 					printf("\nEnter your Username: ");
-					unsigned char name[50] = { 0 };
-					fgets(name, 50, stdin);
+					unsigned char name[USERNAME_SIZE] = { 0 };
+					fgets(name, USERNAME_SIZE, stdin);
 					printf("\nEnter your Password: ");
-					int Password[10] = { 0 };
-					for (int i = 0; i < 10; i++)
+					int Password[PASSWORD_SIZE] = { 0 };
+					for (int i = 0; i < PASSWORD_SIZE; i++)
 					{
 						scanf_s("%d", &Password[i]);
 					}
@@ -139,8 +133,8 @@ void LoginCredentials()
 	case 2:
 		printf("\nWhich one are you?\nEnter a number to continue: ");
 		unsigned int choice1 = 0;
-		unsigned char Choice1[10] = { 0 };
-		while (fgets(Choice1, 10, stdin))
+		unsigned char Choice1[NUM_SIZE] = { 0 };
+		while (fgets(Choice1, NUM_SIZE, stdin))
 		{
 			unsigned int choice1 = atoi(Choice1);
 			if (choice1 > 2 || choice1 < 1)
@@ -162,15 +156,7 @@ void LoginCredentials()
 				{
 				case 1:
 					//WriteToNewOrganizerFile(); - turn the entire code below to this function in employee.h
-					printf("\nEnter your Username: ");
-					unsigned char Name1[150] = { 0 };
-					fgets(Name1, 150, stdin);
-					printf("\nEnter your Password: ");
-					int password1[10] = { 0 };
-					for (int i = 0; i < 10; i++)
-					{
-						scanf_s("%d", &password1[i]);
-					}
+					WriteToOrganizerCredentialsFile();
 					break;
 
 				case 2:
@@ -181,11 +167,11 @@ void LoginCredentials()
 					//		VerifyExistingOrganizer(); - verifys what was entered from above
 					// }
 					printf("\nEnter your Username: ");
-					unsigned char name1[50] = { 0 };
-					fgets(name1, 50, stdin);
+					unsigned char name1[USERNAME_SIZE] = { 0 };
+					fgets(name1, USERNAME_SIZE, stdin);
 					printf("\nEnter your Password: ");
-					int Password1[10] = { 0 };
-					for (int i = 0; i < 10; i++)
+					int Password1[PASSWORD_SIZE] = { 0 };
+					for (int i = 0; i < PASSWORD_SIZE; i++)
 					{
 						scanf_s("%d", &Password1[i]);
 					}
@@ -199,8 +185,8 @@ void LoginCredentials()
 	case 3:
 		printf("\nEnter a number to continue: ");
 		unsigned int choice2 = 0;
-		unsigned char Choice2[10] = { 0 };
-		while (fgets(Choice2, 10, stdin))
+		unsigned char Choice2[NUM_SIZE] = { 0 };
+		while (fgets(Choice2, NUM_SIZE, stdin))
 		{
 			unsigned int choice2 = atoi(Choice2);
 			if (choice2 > 1 || choice2 < 1)
@@ -227,11 +213,11 @@ void LoginCredentials()
 					//		VerifyExistingEmployee(); - verifys what was entered from above
 					// }
 					printf("\nEnter your Employee ID: ");
-					unsigned char ID[20] = { 0 };
-					fgets(ID, 20, stdin);
+					unsigned char ID[ID_SIZE] = { 0 };
+					fgets(ID, ID_SIZE, stdin);
 					printf("\nEnter your Passcode: ");
-					int Passcode2[10] = { 0 };
-					for (int i = 0; i < 10; i++)
+					int Passcode2[PASSWORD_SIZE] = { 0 };
+					for (int i = 0; i < PASSWORD_SIZE; i++)
 					{
 						scanf_s("%d", &Passcode2[i]);
 					}
