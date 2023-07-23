@@ -81,7 +81,7 @@ void displayHockeyInventory()
         printf("Date: %s\n", game.date);
         printf("Time: %s\n", game.time);
         printf("Available Tickets: %d\n", game.availableTickets);
-        printf("Ticket Price: %.2f\n", game.ticketPrice);
+        printf("Ticket Price: %f\n", game.ticketPrice);
         printf("\n");
         gameCount++;
     }
@@ -113,7 +113,7 @@ void bookHockeyGame()
         printf("Date: %s\n", game.date);
         printf("Time: %s\n", game.time);
         printf("Available Tickets: %d\n", game.availableTickets);
-        printf("Ticket Price: %.2f\n", game.ticketPrice);
+        printf("Ticket Price: %f\n", game.ticketPrice);
         printf("\n");
         gameCount++;
     }
