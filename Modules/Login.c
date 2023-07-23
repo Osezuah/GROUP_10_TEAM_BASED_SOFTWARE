@@ -10,7 +10,7 @@ int InputStream() //this function takes and verifys input
 	LOGIN login;
 	 login.option = 0; //initializes variable
 	unsigned char Option[NUM_SIZE] = { 0 }; //creates a string for input
-	while (fgets(Option, NUM_SIZE, stdin)) 
+	while (fgets(Option, NUM_SIZE, stdin)) //accepts input string
 	{
 		 login.option = atoi(Option); //converts the input string to int
 		 if (login.option > 3 || login.option < 1) //checks if input, as an integer, is wrong 
@@ -84,14 +84,15 @@ void LoginCredentials()
 		unsigned char Choice[NUM_SIZE] = { 0 };
 		while (fgets(Choice, NUM_SIZE, stdin))
 		{
+			//HANDLING ERRORS FROM INPUT
 			unsigned int choice = atoi(Choice);
-			if (choice > 2 || choice < 1)
+			if (choice > 2 || choice < 1) //checks if input, as an integer, is wrong
 			{
 				printf("\nERROR: Enter either 1 or 2 only\n");
 				printf("\n");
 				printf("Enter option: ");
 			}
-			else if (Choice == choice)
+			else if (Choice == choice) //checks if input is NOT an integer
 			{
 				printf("\nERROR: Enter either 1 or 2 only\n");
 				printf("\n");
@@ -100,29 +101,15 @@ void LoginCredentials()
 			else
 			{
 
-				switch (choice)
+				switch (choice) //CHECKING FOR WHICH KIND OF INPUT
 				{
-				case 1:
+				case 1: //IF USER ENTERS 1; SAVE THEM TO FILE
 					//WriteToNewUserFile(); - turn the entire code below to this function in employee.h
 					WriteToUsersCredentialsFile();
 					break;
 
-				case 2:
-					// void ReadFromExistingUserFile()
-					// {
-					//		function that reads from file 
-					//		(the code input below is to be passed here from employee.h)
-					//		VerifyExistingUser(); - verifys what was entered from above
-					// }
-					printf("\nEnter your Username: ");
-					unsigned char name[USERNAME_SIZE] = { 0 };
-					fgets(name, USERNAME_SIZE, stdin);
-					printf("\nEnter your Password: ");
-					int Password[PASSWORD_SIZE] = { 0 };
-					for (int i = 0; i < PASSWORD_SIZE; i++)
-					{
-						scanf_s("%d", &Password[i]);
-					}
+				case 2: //IF USER ENTERS 2; VERIFY THEIR EXISTENCE IN OUR DATABASE
+					ReadFromUsersCredentialsFile();	
 					break;
 				}
 				break;
@@ -136,14 +123,15 @@ void LoginCredentials()
 		unsigned char Choice1[NUM_SIZE] = { 0 };
 		while (fgets(Choice1, NUM_SIZE, stdin))
 		{
+			//HANDLING ERRORS FROM INPUT
 			unsigned int choice1 = atoi(Choice1);
-			if (choice1 > 2 || choice1 < 1)
+			if (choice1 > 2 || choice1 < 1) //checks if input, as an integer, is wrong
 			{
 				printf("\nERROR: Enter either 1 or 2 only\n");
 				printf("\n");
 				printf("Enter option: ");
 			}
-			else if (Choice1 == choice1)
+			else if (Choice1 == choice1) //checks if input is NOT an integer
 			{
 				printf("\nERROR: Enter either 1 or 2 only\n");
 				printf("\n");
@@ -152,29 +140,16 @@ void LoginCredentials()
 			else
 			{
 
-				switch (choice1)
+				switch (choice1) //CHECKING FOR WHICH KIND OF INPUT
 				{
-				case 1:
+				case 1: //IF ORGANIZER ENTERS 1; SAVE THEM TO FILE
 					//WriteToNewOrganizerFile(); - turn the entire code below to this function in employee.h
 					WriteToOrganizerCredentialsFile();
 					break;
 
-				case 2:
+				case 2: //IF ORGANIZER ENTERS 2; VERIFY THEIR EXISTENCE IN OUR DATABASE
 					// void ReadFromExistingOrganizerFile()
-					// {
-					//		function that reads from file 
-					//		(the code input below is to be passed here from employee.h)
-					//		VerifyExistingOrganizer(); - verifys what was entered from above
-					// }
-					printf("\nEnter your Username: ");
-					unsigned char name1[USERNAME_SIZE] = { 0 };
-					fgets(name1, USERNAME_SIZE, stdin);
-					printf("\nEnter your Password: ");
-					int Password1[PASSWORD_SIZE] = { 0 };
-					for (int i = 0; i < PASSWORD_SIZE; i++)
-					{
-						scanf_s("%d", &Password1[i]);
-					}
+					ReadFromOrganizerCredentialsFile();
 					break;
 				}
 				break;
@@ -188,14 +163,15 @@ void LoginCredentials()
 		unsigned char Choice2[NUM_SIZE] = { 0 };
 		while (fgets(Choice2, NUM_SIZE, stdin))
 		{
+			//HANDLING ERRORS FROM INPUT
 			unsigned int choice2 = atoi(Choice2);
-			if (choice2 > 1 || choice2 < 1)
+			if (choice2 > 1 || choice2 < 1) //checks if input, as an integer, is wrong
 			{
 				printf("\nERROR: Enter only 1\n");
 				printf("\n");
 				printf("Enter option: ");
 			}
-			else if (Choice2 == choice2)
+			else if (Choice2 == choice2) //checks if input is NOT an integer
 			{
 				printf("\nERROR: Enter only 1\n");
 				printf("\n");
@@ -205,22 +181,8 @@ void LoginCredentials()
 			{
 				switch (choice2)
 				{
-				case 1:
-					// void ReadFromExistingEmployeeFile()
-					// {
-					//		function that reads from file 
-					//		(the code input below is to be passed here from employee.h)
-					//		VerifyExistingEmployee(); - verifys what was entered from above
-					// }
-					printf("\nEnter your Employee ID: ");
-					unsigned char ID[ID_SIZE] = { 0 };
-					fgets(ID, ID_SIZE, stdin);
-					printf("\nEnter your Passcode: ");
-					int Passcode2[PASSWORD_SIZE] = { 0 };
-					for (int i = 0; i < PASSWORD_SIZE; i++)
-					{
-						scanf_s("%d", &Passcode2[i]);
-					}
+				case 1: //IF EMPLOYEE ENTERS 1; VERIFY THEIR EXISTENCE IN OUR DATABASE
+					ReadFromEmployeeFile();
 					break;
 				}
 				break;

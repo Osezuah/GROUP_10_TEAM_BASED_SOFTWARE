@@ -6,11 +6,8 @@ int main(void)
 {
 	WelcomeMessage();
 	DisplayLoginOptions();
-
 	printf("Enter an option: ");
-
 	LoginCredentials();
-	
 	
 	return 0;
 }
