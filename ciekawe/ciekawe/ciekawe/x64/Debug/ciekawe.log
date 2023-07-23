@@ -1,0 +1,9 @@
+﻿  org.c
+C:\Users\Adam\Downloads\ciekawe\ciekawe\ciekawe\org.c(346,60): warning C4101: 'tem': unreferenced local variable
+C:\Users\Adam\Downloads\ciekawe\ciekawe\ciekawe\org.c(346,54): warning C4101: 't': unreferenced local variable
+C:\Users\Adam\Downloads\ciekawe\ciekawe\ciekawe\org.c(494,9): warning C4133: '=': incompatible types - from 'eventNode *' to 'stadiumNode *'
+C:\Users\Adam\Downloads\ciekawe\ciekawe\ciekawe\org.c(495,16): warning C4133: '=': incompatible types - from 'StadiumNode *' to 'eventNode *'
+C:\Users\Adam\Downloads\ciekawe\ciekawe\ciekawe\org.c(508,2): warning C4013: 'getch' undefined; assuming extern returning int
+  Source.c
+  Generating Code...
+  ciekawe.vcxproj -> C:\Users\Adam\Downloads\ciekawe\ciekawe\x64\Debug\ciekawe.exe
