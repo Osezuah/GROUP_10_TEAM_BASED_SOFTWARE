@@ -1,0 +1,9 @@
+﻿  main.c
+  organizer.c
+C:\Users\awajd\source\repos\UserMerging\UserMerging\organizer.c(334,66): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\awajd\source\repos\UserMerging\UserMerging\organizer.c(334,66): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\awajd\source\repos\UserMerging\UserMerging\organizer.c(353,78): warning C4101: 'tem': unreferenced local variable
+C:\Users\awajd\source\repos\UserMerging\UserMerging\organizer.c(353,72): warning C4101: 't': unreferenced local variable
+C:\Users\awajd\source\repos\UserMerging\UserMerging\organizer.c(622,2): warning C4013: 'getch' undefined; assuming extern returning int
+  Generating Code...
+  UserMerging.vcxproj -> C:\Users\awajd\source\repos\UserMerging\x64\Debug\UserMerging.exe
