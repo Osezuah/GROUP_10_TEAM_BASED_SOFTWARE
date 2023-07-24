@@ -1,0 +1,15 @@
+﻿  users.c
+C:\Users\awajd\source\repos\NOERRRORSSSSSS\NOERRRORSSSSSS\users.c(18,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\awajd\source\repos\NOERRRORSSSSSS\NOERRRORSSSSSS\users.c(70,2): warning C4013: 'sleep' undefined; assuming extern returning int
+C:\Users\awajd\source\repos\NOERRRORSSSSSS\NOERRRORSSSSSS\users.c(222,66): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\awajd\source\repos\NOERRRORSSSSSS\NOERRRORSSSSSS\users.c(222,66): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\awajd\source\repos\NOERRRORSSSSSS\NOERRRORSSSSSS\users.c(246,66): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\awajd\source\repos\NOERRRORSSSSSS\NOERRRORSSSSSS\users.c(246,66): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\awajd\source\repos\NOERRRORSSSSSS\NOERRRORSSSSSS\users.c(270,66): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\awajd\source\repos\NOERRRORSSSSSS\NOERRRORSSSSSS\users.c(270,66): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\awajd\source\repos\NOERRRORSSSSSS\NOERRRORSSSSSS\users.c(294,66): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\awajd\source\repos\NOERRRORSSSSSS\NOERRRORSSSSSS\users.c(294,66): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\awajd\source\repos\NOERRRORSSSSSS\NOERRRORSSSSSS\users.c(315,78): warning C4101: 'tem': unreferenced local variable
+C:\Users\awajd\source\repos\NOERRRORSSSSSS\NOERRRORSSSSSS\users.c(315,72): warning C4101: 't': unreferenced local variable
+users.obj : error LNK2019: unresolved external symbol sleep referenced in function disp_menu2
+C:\Users\awajd\source\repos\NOERRRORSSSSSS\x64\Debug\NOERRRORSSSSSS.exe : fatal error LNK1120: 1 unresolved externals
