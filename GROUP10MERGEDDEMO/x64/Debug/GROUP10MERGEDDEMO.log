@@ -1,0 +1,20 @@
+﻿  employee.c
+C:\Users\Adam\source\repos\GROUP10MERGEDDEMO\GROUP10MERGEDDEMO\employee.c(29,37): warning C4047: '==': 'unsigned char [10]' differs in levels of indirection from 'int'
+  files.c
+C:\Users\Adam\source\repos\GROUP10MERGEDDEMO\GROUP10MERGEDDEMO\files.c(21,78): warning C4101: 'tem': unreferenced local variable
+C:\Users\Adam\source\repos\GROUP10MERGEDDEMO\GROUP10MERGEDDEMO\files.c(21,72): warning C4101: 't': unreferenced local variable
+  login.c
+C:\Users\Adam\source\repos\GROUP10MERGEDDEMO\GROUP10MERGEDDEMO\login.c(26,34): warning C4047: '==': 'unsigned char [10]' differs in levels of indirection from 'int'
+C:\Users\Adam\source\repos\GROUP10MERGEDDEMO\GROUP10MERGEDDEMO\login.c(101,29): warning C4047: '==': 'unsigned char [10]' differs in levels of indirection from 'unsigned int'
+C:\Users\Adam\source\repos\GROUP10MERGEDDEMO\GROUP10MERGEDDEMO\login.c(146,31): warning C4047: '==': 'unsigned char [10]' differs in levels of indirection from 'unsigned int'
+C:\Users\Adam\source\repos\GROUP10MERGEDDEMO\GROUP10MERGEDDEMO\login.c(192,31): warning C4047: '==': 'unsigned char [10]' differs in levels of indirection from 'unsigned int'
+C:\Users\Adam\source\repos\GROUP10MERGEDDEMO\GROUP10MERGEDDEMO\login.c(82,6): warning C4101: 'option': unreferenced local variable
+  main.c
+  organizer.c
+C:\Users\Adam\source\repos\GROUP10MERGEDDEMO\GROUP10MERGEDDEMO\organizer.c(340,66): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\Adam\source\repos\GROUP10MERGEDDEMO\GROUP10MERGEDDEMO\organizer.c(340,66): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\Adam\source\repos\GROUP10MERGEDDEMO\GROUP10MERGEDDEMO\organizer.c(549,2): warning C4013: 'getch' undefined; assuming extern returning int
+  user.c
+C:\Users\Adam\source\repos\GROUP10MERGEDDEMO\GROUP10MERGEDDEMO\user.c(18,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  GROUP10MERGEDDEMO.vcxproj -> C:\Users\Adam\source\repos\GROUP10MERGEDDEMO\x64\Debug\GROUP10MERGEDDEMO.exe
