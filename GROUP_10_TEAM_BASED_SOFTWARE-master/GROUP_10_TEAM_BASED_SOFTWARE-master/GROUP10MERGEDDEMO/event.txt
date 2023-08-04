@@ -1,0 +1,18 @@
+Basketball; Name here; Ontario, Waterloo; 17:30; 23/2/2019; 1000; 179.990000; orgName
+Football; Name here; Ontario, Waterloo; 17:30; 23/2/2019; 10; 119.990000; nameoftheorg
+Hockey; Name of this event; Ontario, Waterloo; 17:30; 23/2/2019; 200; 80.010000; orgName
+Baseball; This event is named; Ontario, Waterloo; 17:30; 23/2/2019; 1; 49.990000; nameoftheorg
+Basketball; Slam Dunk Challenge; Ontario, Waterloo; 18:0; 10/3/2019; 300; 129.990000; HoopMasters
+Football; Sunday League Cup; Ontario, Waterloo; 16:30; 3/4/2019; 50; 69.990000; LocalFootballAssoc
+Hockey; Ice Rink Classic; Ontario, Waterloo; 19:0; 20/4/2019; 180; 89.990000; IceHockeyNation
+Baseball; Home Run Derby; Ontario, Waterloo; 17:0; 15/5/2019; 10; 29.990000; BaseballLegends
+Basketball; Three-Point Shootout; Ontario, Waterloo; 19:30; 2/6/2019; 100; 99.990000; HoopsFrenzy
+Football; Junior Soccer Fest; Ontario, Waterloo; 10:0; 25/6/2019; 200; 49.990000; YouthSoccerClub
+Hockey; Roller Rink Rumble; Ontario, Waterloo; 14:30; 10/7/2019; 120; 69.990000; RollerHockeyFans
+Baseball; Little League World Series; Ontario, Waterloo; 12:0; 5/8/2019; 500; 119.990000; LittleLeagueOrg
+Basketball; All-Star Game; Ontario, Waterloo; 20:0; 15/8/2019; 800; 159.990000; ProBasketballLeague
+Football; Charity Soccer Match; Ontario, Waterloo; 18:30; 30/9/2019; 299; 79.990000; CharityFootballOrg
+Basketball; name; place; 23:59; 21/2/2021; 100; 99.900000; Name
+Football; Name of the event hehe; Ontario, Big field in the park; 12:0; 24/8/2023; 200; 5.000000; SportOrg
+Football; Junior Fundraising Match, Doplhins - Sharks.; Toronto National Football Field.; 18:30; 28/8/2023; 1000; 35.000000; DSsport
+Football; name; place; 22:22; 22/12/2022; 222; 22.220000; new

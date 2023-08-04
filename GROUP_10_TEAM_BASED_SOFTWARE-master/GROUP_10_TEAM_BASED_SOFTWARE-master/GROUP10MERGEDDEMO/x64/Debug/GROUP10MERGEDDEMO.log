@@ -1,0 +1,10 @@
+﻿  organizer.c
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\organizer.c(86,47): warning C4090: 'function': different 'const' qualifiers
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\organizer.c(89,40): warning C4090: 'function': different 'const' qualifiers
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\organizer.c(94,47): warning C4090: 'function': different 'const' qualifiers
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\organizer.c(97,36): warning C4090: 'function': different 'const' qualifiers
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\organizer.c(102,47): warning C4090: 'function': different 'const' qualifiers
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\organizer.c(343,66): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\organizer.c(343,66): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\organizer.c(552,2): warning C4013: 'getch' undefined; assuming extern returning int
+  GROUP10MERGEDDEMO.vcxproj -> C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\x64\Debug\GROUP10MERGEDDEMO.exe
