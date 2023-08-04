@@ -1,0 +1,3 @@
+﻿  organizer.c
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\organizer.c(553,2): warning C4013: 'getch' undefined; assuming extern returning int
+  GROUP10MERGEDDEMO.vcxproj -> C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\x64\Debug\GROUP10MERGEDDEMO.exe
