@@ -1,0 +1,23 @@
+﻿  employee.c
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\employee.c(32,37): warning C4047: '==': 'unsigned char [10]' differs in levels of indirection from 'int'
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\employee.c(276,33): warning C4047: 'function': 'event *' differs in levels of indirection from 'event **'
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\employee.c(276,19): warning C4024: 'AddNewEvent': different types for formal and actual parameter 1
+  files.c
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\files.c(21,78): warning C4101: 'tem': unreferenced local variable
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\files.c(21,72): warning C4101: 't': unreferenced local variable
+  login.c
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\login.c(26,34): warning C4047: '==': 'unsigned char [10]' differs in levels of indirection from 'int'
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\login.c(101,29): warning C4047: '==': 'unsigned char [10]' differs in levels of indirection from 'unsigned int'
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\login.c(146,31): warning C4047: '==': 'unsigned char [10]' differs in levels of indirection from 'unsigned int'
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\login.c(186,31): warning C4047: '==': 'unsigned char [10]' differs in levels of indirection from 'unsigned int'
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\login.c(81,6): warning C4101: 'out1': unreferenced local variable
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\login.c(82,6): warning C4101: 'option': unreferenced local variable
+  main.c
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\main.c(12,2): warning C4013: 'getch' undefined; assuming extern returning int
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\main.c(13,18): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+  organizer.c
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\organizer.c(550,2): warning C4013: 'getch' undefined; assuming extern returning int
+  user.c
+C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP10MERGEDDEMO\user.c(19,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  GROUP10MERGEDDEMO.vcxproj -> C:\Users\awajd\Downloads\GROUP_10_TEAM_BASED_SOFTWARE-master\GROUP_10_TEAM_BASED_SOFTWARE-master\x64\Debug\GROUP10MERGEDDEMO.exe
